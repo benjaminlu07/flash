@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+
+.header * {
+    position: absolute;
+}
+
+.header img {
+    top: 10px;
+    left: 10px;
+    height: 64px;
+    width: 64px;
+}
+
+.header h1 {
+    top: 23px;
+    left: 93px;
+    font-family: 'Nunito', sans-serif;;
+}
+
+.header hr {
+    position: relative;
+    top: 90px;
+    box-shadow: 0px 1px 3px grey;
+    border-color: lightgray;
+}
+
+.main form textarea {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 500px;
+    height: 300px;
+}
+
+.main form button {
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    width: 200px;
+    height: 50px;
+}
+
+#flashcardDiv {
+    border-radius: 20px;
+    display: none;
+    position: absolute;
+    background-color: #98BDDF;
+    height: 350px;
+    width: 600px;
+    top: 25%;
+    left: 27%;
+}
+
+#flashcardText {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#flipButton {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 42.5%;
+    width: 200px;
+    height: 50px;
+}
+
+#leftButton {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 20%;
+}
+
+#rightButton {
+    position: absolute;
+    display: none;
+    top: 50%;
+    right: 20%;
+}
